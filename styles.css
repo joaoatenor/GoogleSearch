@@ -1,0 +1,105 @@
+#body {
+    font-family: Arial, sans-serif;
+}
+#image {
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#form {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+#advform {
+        margin-left: 40px;
+        text-align: left;
+        vertical-align: middle;
+}
+#box{
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-radius: 24px;
+    display: flex;
+    height: 15px;
+    width: 300px    ;
+    max-width: 584px;
+    text-align: left;
+}
+#input{
+    margin-top: -20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+#button{
+    padding-top: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#top{ 
+    margin: auto;
+    flex-grow: 1;
+    float: right;
+    padding: 32px;
+    padding-left: 10px;
+    color: black;
+}
+#removelink{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+#title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: brown;
+}
+
+#inputadv{
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    text-align: left;
+    min-width: 127px;
+    width: 100%;
+}
+label{
+    float: left;
+    vertical-align: middle;
+    padding-right: 30px;
+    margin-left: 8px;
+    height: 30px;
+    display: table-cell;
+}
+#explain{
+    padding-left: 16px;
+    margin-left: 8px;
+    height: 30px;
+    display: table-cell;
+}
+#divinput{
+    width: 50%; 
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
